@@ -1,0 +1,37 @@
+.caja-flex
+{background-color: brown;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    
+}
+
+
+
+
+
+.row
+{ display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+
+}
+
+.reverse 
+{ display: flex;
+    flex-direction: row-reverse;
+gap: 10px;
+}
+
+
+.column{ display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.col-reverse{  display: flex;
+    flex-direction: column-reverse;
+ gap: 10px;
+}
