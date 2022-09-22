@@ -1,36 +1,163 @@
-*{ 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Poppins&display=swap');
+
+
+
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "poppins" , "sans-serif";
 }
 
-
-/* Header */
-
-.header{
-    height: 100px;
+header { 
+    
+    background-color:rgb(240, 101, 101);
     width: 100%;
-    padding: 0px 50px ;
-    box-shadow: rgba(149,157,165, 0.2) 0px 8px 24px ;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0px 30px 0px 30px;
+  position: fixed;
+  top: 0;
+}
+
+.logo
+{height: 40px ;
+   
+
+}
+.cart-icon{
+    height: 50px;
+    border: 1px solid ;
+    padding: 10px 14px;
+    margin-top: 3px;
+    border-radius: 10px;
+   font-weight: 600;
+   cursor: pointer;
+    
+
+}
+
+.navbar,
+.navbar-list 
+{ display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar {
+    gap: 150px;
+}
+
+.navbar-list {
+    gap: 30px;
+}
+
+.navbar-list a {
+    color: black;
+    font-size: 14px ;
+}
+
+main {
+    background-color: rgb(204, 99, 99);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+
+#hero { margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px ;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.hero-info p  {
+    font-size: 14px;
+    width: 70%;
+    color: white ;
+}
+
+.hero-info p > span {
+    font-weight: 800;
+
+}
+
+.hero-info a {
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center ;
+
+}
+
+.hero-helados {
+    width: 300px;
+    background-color: black ;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-helados-info {
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+}
+
+.hero-helados-top{
     display: flex;
     align-items: center;
-    justify-content:space-between;
-
+    justify-content: space-around;
+    gap: 10px;
 }
 
-.navbar ul{
-display: flex;
-list-style: none;
-gap: 100px;
-
-}
-
-.header img { height: 80px;
-
-}
-
-.navbar-link {
-    text-decoration: none ;
-    color: black;
+.hero-helados-top h3 {
     font-weight: 600;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
+
+.hero-helados-top span {
+    background-color: rgb(168, 2, 2);
+    text-align: center;
+    width: 50px;
+    padding: 3px 0px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
