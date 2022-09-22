@@ -161,3 +161,67 @@ gap: 10px;
 }
 
 
+.hero-helados-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-helados-price span {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#info {
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#info h2 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.info-helados-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.info-helados {
+    width: 300px;
+    height: 290px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(173, 42, 42) ;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.info-helados img {
+    width: 100px;
+}
+
+
+.info-helados h3 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.info-helados p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
