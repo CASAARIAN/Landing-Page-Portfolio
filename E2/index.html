@@ -7,11 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Heladeria</title>
     
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  
+    
 </head>
  <body>
-
-
 
     <header>
         <img src="./cbcffb901c2892a17e309427dae723fc.png" alt="Logo de helado" class="logo">
@@ -26,12 +27,126 @@
            
         </ul>
         
-        <img src="./2698303.png" alt="Carrito de compras" class="cart-icon">
+     
+
+
+<label for="cart-toggle" class="cart-label">
+
+    <img src="./2698303.png" alt="Carrito de compras" class="cart-icon">
+
+</label>
+
+<input type="checkbox" id="cart-toggle">
         
+<!-- cart -->
+<div class="cart">
+
+<h2>Tu mejor heladeria</h2>
+
+<div class="cart-item">
+<img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg" alt="1 kg de helado">
+<div class="item-info">
+    <h3 class="item-title">1 kg de helado</h3>
+    <p class="item-bid">Precio</p>
+    <span class="item-price">$1200</span>
+    
+</div>
+
+<div class="item-handler">
+
+    <span class="quantity-handler down">-</span>
+    <span class="item-quantity">1</span>
+    <span class="quantity-handler up">+</span>
+</div>
+</div>
+
+
+<div class="cart-item">
+    <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg" alt="1 kg de helado">
+    <div class="item-info">
+        <h3 class="item-title">1 kg de helado</h3>
+        <p class="item-bid">Precio</p>
+        <span class="item-price">$1200</span>
+        
+    </div>
+    
+    <div class="item-handler">
+    
+        <span class="quantity-handler down">-</span>
+        <span class="item-quantity">1</span>
+        <span class="quantity-handler up">+</span>
+    </div>
+    </div>
+
+    <div class="cart-item">
+        <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg" alt="1 kg de helado">
+    
+        <div class="item-info">
+            <h3 class="item-title">1 kg de helado</h3>
+            <p class="item-bid">Precio</p>
+            <span class="item-price">$1200</span>
+            
+        </div>
+        
+        <div class="item-handler">
+        
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up">+</span>
+        </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg" alt="1 kg de helado">
+            <div class="item-info">
+                <h3 class="item-title">1 kg de helado</h3>
+                <p class="item-bid">Precio</p>
+                <span class="item-price">$1200</span>
+                
+            </div>
+            
+            <div class="item-handler">
+            
+                <span class="quantity-handler down">-</span>
+                <span class="item-quantity">1</span>
+                <span class="quantity-handler up">+</span>
+            </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg" alt="1 kg de helado">
+                <div class="item-info">
+                    <h3 class="item-title">1 kg de helado</h3>
+                    <p class="item-bid">Precio</p>
+                    <span class="item-price">$1200</span>
+                    
+                </div>
+                
+                <div class="item-handler">
+                
+                    <span class="quantity-handler down">-</span>
+                    <span class="item-quantity">1</span>
+                    <span class="quantity-handler up">+</span>
+                </div>
+                </div>
+
+<span class="divider"></span>
+<div class="cart-total">
+    <p>Total:</p>
+    <span>$6000</span>
+</div>
+
+<button class="btn-add">Comprar</button>
+
+</div>
+<!-- Fin del carrito -->
+
+
     </nav>
 
     </header>
 
+    
     <main>
         <section id="hero">
             <div class="hero-info">
@@ -57,6 +172,8 @@
                 </div>
             </div>
         </section>
+        
+       
 
 <section id="info">
     <h2>Aprovecha las nuevas ¡PROMOCIONES!</h2>
@@ -103,138 +220,174 @@
     <botton class="category">Batidos</botton>
     <botton class="category">Palitos</botton>
     <botton class="category">Postres</botton>
-    <botton class="category">Cucuruchos</botton>
+    
 </div>
-<div class="products-container">
 
+
+<div class="products-container">
+<!-- product 1 -->
     <div class="product">
     
 
-<img class="helado1kg" src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg" alt="1 kg de helado">
+        <img class="helado1kg" src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg" alt="1 kg de helado">
 
-<div class="product-info"></div>
-<div class="product-top">
-    <h3>1 kg</h3>
-</div>
-<div class="product-mid">
-    <span>1200$</span>
-</div>
+        <div class="product-info">
 
-<div class="product-bot">
-    <div class="product-offer">
-    <div class="offer-time">
-        <img src="./25.png" alt="">
-        <p>23:59:59</p>
-    </div>
+            <!-- top -->
 
-   <button class="btn-comprar">Comprar</button>
+        <div class="product-top">
+            <h3>1 kg</h3>
+        </div>
 
-</div>
+        <!-- mid -->
 
-</div>
+        <div class="product-mid">
+            <span>1200$</span>
+        </div>
+
+        <!-- bot -->
+
+        <div class="product-bot">
+           <div class="product-offer">
+            <div class="offer-time">
+              <img src="./25.png" alt="25% de descuento">
+              <p>23:59:59</p>
+            </div>
+
+            <button class="btn-comprar">Comprar</button>
+
+
+           </div> 
+            
+        
+        </div>
+    </div>        
+</div> 
+        
+        
+     <!-- product 2 -->
+    <div class="product">
+    
+
+        <img class="Batidos" src="./SHAKE--1 (1).png" alt="Batidos">
+
+        <div class="product-info">
+
+            <!-- top -->
+
+        <div class="product-top">
+            <h3>Batidos</h3>
+        </div>
+
+        <!-- mid -->
+
+        <div class="product-mid">
+            <span>500$</span>
+        </div>
+
+        <!-- bot -->
+
+        <div class="product-bot">
+           <div class="product-offer">
+            <div class="offer-time">
+              <img src="./25.png" alt="25% de descuento">
+              <p>23:59:59</p>
+            </div>
+
+            <button class="btn-comprar">Comprar</button>
+
+
+           </div> 
+            
+        
+        </div>
+    </div>        
+</div> 
+
+<!-- product 3 -->
 <div class="product">
     
 
-    <img src="./SHAKE--1 (1).png" alt="Batidos">
-    <div class="product-info"></div>
+    <img class="Palitos" src="./palito-crema-1.png" alt="Palitos">
+
+    <div class="product-info">
+
+        <!-- top -->
+
     <div class="product-top">
-        <h3>Batidos</h3>
+        <h3>Palitos</h3>
     </div>
+
+    <!-- mid -->
+
     <div class="product-mid">
-        <span>500$</span>
+        <span>250$</span>
     </div>
-    
+
+    <!-- bot -->
+
     <div class="product-bot">
-        <div class="product-offer">
+       <div class="product-offer">
         <div class="offer-time">
-            <img src="./25.png" alt="">
-            <p>23:59:59</p>
+          <img src="./25.png" alt="25% de descuento">
+          <p>23:59:59</p>
         </div>
-    
-       <button class="btn-comprar">Comprar</button>
+
+        <button class="btn-comprar">Comprar</button>
+
+
+       </div> 
+        
     
     </div>
-    
-    </div>
-    <div class="product">
+</div>        
+</div> 
+
+
+<!-- product 4 -->
+<div class="product">
     
 
-        <img src="./palito-crema-1.png" alt="Palitos de crema">
-        <div class="product-info"></div>
-        <div class="product-top">
-            <h3>Palitos de crema</h3>
-        </div>
-        <div class="product-mid">
-            <span>250$</span>
-        </div>
-        
+    <img class="postres" src="./postres-arcor.png" alt="Postres">
+
+    <div class="product-info">
+
+        <!-- top -->
+
+    <div class="product-top">
+        <h3>Postres</h3>
+    </div>
+
+    <!-- mid -->
+
+    <div class="product-mid">
+        <span>1000$</span>
+    </div>
+
+    <!-- bot -->
+
         <div class="product-bot">
-            <div class="product-offer">
-            <div class="offer-time">
-                <img src="./25.png" alt="">
-                <p>23:59:59</p>
-            </div>
-        
-           <button class="btn-comprar">Comprar</button>
-        
+          <div class="product-offer">
+          <div class="offer-time">
+          <img src="./25.png" alt="25% de descuento">
+          <p>23:59:59</p>
         </div>
-        
-        </div>
-        <div class="product">
-    
 
-            <img src="./postre-helado.png" alt="Postres">
-            <div class="product-info"></div>
-            <div class="product-top">
-                <h3>Postres helados</h3>
-            </div>
-            <div class="product-mid">
-                <span>1000$</span>
-            </div>
-            
-            <div class="product-bot">
-                <div class="product-offer">
-                <div class="offer-time">
-                    <img src="./25.png" alt="">
-                    <p>23:59:59</p>
-                </div>
-            
-               <button class="btn-comprar">Comprar</button>
-            
-            </div>
-            
-            </div>
-  
-            <div class="product">
-    
+        <button class="btn-comprar">Comprar</button>
 
-                <img src="./CONO.png" alt="Cucurucho">
-                <div class="product-info"></div>
-                <div class="product-top">
-                    <h3>Cucuruchos</h3>
-                </div>
-                <div class="product-mid">
-                    <span>A partir de 300$</span>
-                </div>
-                
-                <div class="product-bot">
-                    <div class="product-offer">
-                    <div class="offer-time">
-                        <img src="./25.png" alt="">
-                        <p>23:59:59</p>
-                    </div>
-                
-                   <button class="btn-comprar">Comprar</button>
-                
-                </div>
-                
-                </div>
-            </div>
-            
-        </div>
+
+        </div> 
         
-    </div>
+    
+       </div>
+    </div>        
+</div> 
+
+ 
+
 <button class="btn-load">Ver Más</button>
+
+
 
 </section>
 

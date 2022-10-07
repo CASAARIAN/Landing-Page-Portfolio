@@ -1,0 +1,52 @@
+@media (max-width: 992px) { 
+    .header { display: none; } 
+
+    .hero-info { 
+        width: 100%; 
+        text-align: center; 
+        justify-content: center; 
+        align-items: center;
+         gap: 30px; } 
+
+    .hero-info h1 { width: 90%; 
+        max-width: 500px; 
+        min-width: unset; } 
+
+    .hero-info p { 
+        width: 60%; 
+        max-width: 600px; } 
+
+    .hero-helados { display: none; } 
+
+    #info h2 {
+        text-align: center;
+        width: 80%;
+    }
+    
+    #info-helados-container {
+        max-width: 80%;
+    }
+
+    #discover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .discover-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discover-helados {
+        flex-direction: column;    
+    }
+
+    .discover-helados img {
+        width: 100%;
+    }
+}
+
