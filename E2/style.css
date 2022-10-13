@@ -161,7 +161,7 @@ header {
 }
 .btn-add {
   border-radius: 5px;
-  background: linear-gradient(to top, rgb(0, 0, 0), rgb(216, 80, 175));
+  background-color: #f1072e;
   color: white;
   cursor: pointer;
 } /* main */
@@ -378,10 +378,11 @@ main {
   max-width: 1200px;
   width: 100%;
 }
-#product h2 {
+#products h2 {
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 40px;
+  
 }
 .categories {
   display: flex;
