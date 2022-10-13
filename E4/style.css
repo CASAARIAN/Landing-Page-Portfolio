@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "poppins", "sans-serif";
+}
+
+
+
+
+
+
+/* cards*/
+
+#cards-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 70px 0px;
+    width: 95%;
+
+
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 300px;
+}
+

@@ -6,23 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heladeria</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="mediaqueries.css">
+
+    <link rel="stylesheet" href="animaciones.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
-    <header> <img src="./cbcffb901c2892a17e309427dae723fc.png" alt="Logo de helado" class="logo">
+    <header> <img src="./img/cbcffb901c2892a17e309427dae723fc.png" alt="Logo de helado" class="logo">
         <nav class="navbar"> <label for="menu-toggle" class="menu-label"> <img src="./6499731.png" class="menu-icon">
             </label> <input type="checkbox" id="menu-toggle">
             <ul class="navbar-list">
-                <li><a href="#">PROMOCIONES</a></li>
-                <li><a href="#">CATEGORÍAS</a></li>
+                <li><a href="#info">PROMOCIONES</a></li>
+                <li><a href="#products">CATEGORÍAS</a></li>
                 <li><a href="#">CONTACTO</a></li>
-            </ul> <label for="cart-toggle" class="cart-label"> <img src="./2698303.png" alt="Carrito de compras"
-                    class="cart-icon"> </label> <input type="checkbox" id="cart-toggle"> <!-- cart -->
+            </ul> <label for="cart-toggle" class="cart-label"> 
+                 <!-- <img src="./2698303.png" alt="Carrito de compras"
+                      class="cart-icon">   -->
+
+                      <i class="fa-sharp fa-solid fa-cart-shopping cart-icon"></i>
+
+                    </label> <input type="checkbox" id="cart-toggle">
+                     <!-- cart    -->
+                     
             <div class="cart">
                 <h2>Tu mejor heladeria</h2>
-                <div class="cart-item"> <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
+                <div class="cart-item"> <img src="./img/37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
                         alt="1 kg de helado">
                     <div class="item-info">
                         <h3 class="item-title">1 kg de helado</h3>
@@ -31,7 +47,7 @@
                     <div class="item-handler"> <span class="quantity-handler down">-</span> <span
                             class="item-quantity">1</span> <span class="quantity-handler up">+</span> </div>
                 </div>
-                <div class="cart-item"> <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
+                <div class="cart-item"> <img src="./img/37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
                         alt="1 kg de helado">
                     <div class="item-info">
                         <h3 class="item-title">1 kg de helado</h3>
@@ -40,7 +56,7 @@
                     <div class="item-handler"> <span class="quantity-handler down">-</span> <span
                             class="item-quantity">1</span> <span class="quantity-handler up">+</span> </div>
                 </div>
-                <div class="cart-item"> <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
+                <div class="cart-item"> <img src="./img/37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
                         alt="1 kg de helado">
                     <div class="item-info">
                         <h3 class="item-title">1 kg de helado</h3>
@@ -49,7 +65,7 @@
                     <div class="item-handler"> <span class="quantity-handler down">-</span> <span
                             class="item-quantity">1</span> <span class="quantity-handler up">+</span> </div>
                 </div>
-                <div class="cart-item"> <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
+                <div class="cart-item"> <img src="./img/37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
                         alt="1 kg de helado">
                     <div class="item-info">
                         <h3 class="item-title">1 kg de helado</h3>
@@ -58,7 +74,7 @@
                     <div class="item-handler"> <span class="quantity-handler down">-</span> <span
                             class="item-quantity">1</span> <span class="quantity-handler up">+</span> </div>
                 </div>
-                <div class="cart-item"> <img src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
+                <div class="cart-item"> <img src="./img/37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
                         alt="1 kg de helado">
                     <div class="item-info">
                         <h3 class="item-title">1 kg de helado</h3>
@@ -81,7 +97,7 @@
                     mejores heladerias de la ciudad con precios super ECONOMICOS,encontra los mejores gustos aquí, un
                     lugar con una calidad espectacular.</p> <a href="#" class="hover">Gustos Disponibles</a>
             </div>
-            <div class="hero-helados"> <img src="./helados.png" alt="Helados">
+            <div class="hero-helados"> <img src="./img/helados.png" alt="Helados">
                 <div class="hero-helados-info">
                     <div class="hero-helados-top">
                         <h3>Muchos sabores de helados:</h3> <span>+100</span>
@@ -97,15 +113,15 @@
             <h2>Aprovecha las nuevas ¡PROMOCIONES!</h2>
             <div class="info-helados-container">
                 <div class="info-helados">
-                    <h3>Palitos Helados</h3> <img src="bodegon_palettas_original-669x272.png" alt="Palitos helados">
+                    <h3>Palitos Helados</h3> <img src="./img/bodegon_palettas_original-669x272.png" alt="Palitos helados">
                     <p>Llevando 2 palitos de agua o crema te hacemos un 50% de descuento en la SEGUNDA UNIDAD</p>
                 </div>
                 <div class="info-helados">
-                    <h3>Postres Helados</h3> <img src="postres-arcor.png" alt="Postres helados">
+                    <h3>Postres Helados</h3> <img src="./img/postres-arcor.png" alt="Postres helados">
                     <p>Llevando un postre helado te regalamos un cupón de 200$ para que lo uses en tu próxima compra</p>
                 </div>
                 <div class="info-helados">
-                    <h3>Cucuruchos Helados</h3> <img src="Cucutuchos-Gelateria-Pico-Masia-slide.png"
+                    <h3>Cucuruchos Helados</h3> <img src="./img/Cucutuchos-Gelateria-Pico-Masia-slide.png"
                         alt="Cucuruchos helados">
                     <p>Llevando un cucurucho helado te llevas un baño de chocolate GRATIS</p>
                 </div>
@@ -118,9 +134,9 @@
                 <p>Los palitos helados más comprados por los clientes ¡AQUÍ!</p> <a href="#" class="hover">Ver
                     disponibles</a>
             </div>
-            <div class="discover-helados"> <img src="./7798024640106-1333-helado-com-com--granizado-5ebf1f893c0b7.png"
-                    alt="Palito granizado"> <img src="./03-Bañaditos.png" alt="Palito bombón"> <img
-                    src="./7798131011844-1329-helado-la-montevideana-palito-crocante-de-almendra-5ebf21eab5616.png"
+            <div class="discover-helados"> <img src="./img/7798024640106-1333-helado-com-com--granizado-5ebf1f893c0b7.png"
+                    alt="Palito granizado"> <img src="./img/03-Bañaditos.png" alt="Palito bombón"> <img
+                    src="./img/7798131011844-1329-helado-la-montevideana-palito-crocante-de-almendra-5ebf21eab5616.png"
                     alt="Palito crocante"> </div>
         </section>
         <section id="products">
@@ -133,7 +149,7 @@
             </div>
             <div class="products-container">
                 <!-- product 1 -->
-                <div class="product"> <img class="helado1kg" src="./37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
+                <div class="product"> <img class="helado1kg" src="./img/37983-b527c1c0-a75f-4d06-8f4e-6c9ac10cb853.jpg"
                         alt="1 kg de helado">
                     <div class="product-info">
                         <!-- top -->
@@ -143,14 +159,14 @@
                         <div class="product-mid"> <span>1200$</span> </div> <!-- bot -->
                         <div class="product-bot">
                             <div class="product-offer">
-                                <div class="offer-time"> <img src="./25.png" alt="25% de descuento">
+                                <div class="offer-time"> <img src="./img/25.png" alt="25% de descuento">
                                     <p>23:59:59</p>
                                 </div> <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
                     </div>
                 </div> <!-- product 2 -->
-                <div class="product"> <img class="Batidos" src="./SHAKE--1 (1).png" alt="Batidos">
+                <div class="product"> <img class="Batidos" src="./img/SHAKE--1 (1).png" alt="Batidos">
                     <div class="product-info">
                         <!-- top -->
                         <div class="product-top">
@@ -159,14 +175,14 @@
                         <div class="product-mid"> <span>500$</span> </div> <!-- bot -->
                         <div class="product-bot">
                             <div class="product-offer">
-                                <div class="offer-time"> <img src="./25.png" alt="25% de descuento">
+                                <div class="offer-time"> <img src="./img/25.png" alt="25% de descuento">
                                     <p>23:59:59</p>
                                 </div> <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
                     </div>
                 </div> <!-- product 3 -->
-                <div class="product"> <img class="Palitos" src="./palito-crema-1.png" alt="Palitos">
+                <div class="product"> <img class="Palitos" src="./img/palito-crema-1.png" alt="Palitos">
                     <div class="product-info">
                         <!-- top -->
                         <div class="product-top">
@@ -175,14 +191,14 @@
                         <div class="product-mid"> <span>250$</span> </div> <!-- bot -->
                         <div class="product-bot">
                             <div class="product-offer">
-                                <div class="offer-time"> <img src="./25.png" alt="25% de descuento">
+                                <div class="offer-time"> <img src="./img/25.png" alt="25% de descuento">
                                     <p>23:59:59</p>
                                 </div> <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
                     </div>
                 </div> <!-- product 4 -->
-                <div class="product"> <img class="postres" src="./postres-arcor.png" alt="Postres">
+                <div class="product"> <img class="postres" src="./img/postres-arcor.png" alt="Postres">
                     <div class="product-info">
                         <!-- top -->
                         <div class="product-top">
@@ -191,14 +207,14 @@
                         <div class="product-mid"> <span>1000$</span> </div> <!-- bot -->
                         <div class="product-bot">
                             <div class="product-offer">
-                                <div class="offer-time"> <img src="./25.png" alt="25% de descuento">
+                                <div class="offer-time"> <img src="./img/25.png" alt="25% de descuento">
                                     <p>23:59:59</p>
                                 </div> <button class="btn-comprar">Comprar</button>
                             </div>
                         </div>
                     </div>
                 </div>
-        </section> <button class="btn-load">Ver Más</button>
+        </section> <a href="http://127.0.0.1:5500/E4/INDEX.HTML" target="_blank">  <button class="btn-load"> Ver Más</button>  </a>
     </main>
     <footer>
         <div>
