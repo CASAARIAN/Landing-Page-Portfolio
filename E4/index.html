@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,41 +8,95 @@
     <title>Heladeria</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="animaciones.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-   <section id="cards-section">
 
-
-<h2>Me presento como el asistente general de esta heladeria</h2>
-<p>Si nesecitas saber algo sobre helados,no dudes en consultarme</p>
-<div class="cards-container">
-<!-- card 1 -->
-
-    <div class="card">
-        <i class="fas fa-location-dot"></i>
-        <h3>Accesibilidad</h3>
-        <p>Para empezar a usarme solo tenes que usar el comando "!OkBarrio"</p>
-    </div>
- <!-- card 2 -->
-
-    <div class="card">
-        <i class="fas fa-puzzle-piece"></i>
-        <h3>Pedidos</h3>
-        <p>Si nesecitas realizar algun pedido a domicilio comunicate con #numero de teléfono</p>
-    </div>
-<!-- card 3 -->
-
-    <div class="card">
-        <i class="fas fa-ban"></i>
-        <h3>Protección</h3>
-        <p>Si nesecita ayuda o reportar algun comentario,solo tenes que comunicarte con #soporte</p>
-    </div>
-</div>
-
-
-   </section> 
+    <header>
+        <img src="./img/cbcffb901c2892a17e309427dae723fc.png" alt="Logo de helado" class="logo">
 
 
 
+        <ul class="navbar-list">
+            <li><a href="#info">ACCESIBILIDAD</a></li>
+            <li><a href="#products">PEDIDOS</a></li>
+            <li><a href="#">PROTECCIÓN</a></li>
+        </ul>
+
+
+
+
+
+    </header>
+
+    <main>
+        <section id="cards-section">
+
+            <h2>Me presento como el asistente general de esta heladeria</h2>
+            <p>Si nesecitas saber algo sobre helados,no dudes en consultarme</p>
+            <div class="cards-container">
+                <!-- card 1 -->
+
+                <div class="card">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Accesibilidad</h3>
+                    <p>Para empezar a usarme solo tenes que usar el comando "!OkBarrio"</p>
+                </div>
+                <!-- card 2 -->
+
+                <div class="card">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Pedidos</h3>
+                    <p>Si nesecitas realizar algun pedido a domicilio comunicate con #numero de teléfono</p>
+                </div>
+                <!-- card 3 -->
+
+                <div class="card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Protección</h3>
+                    <p>Si nesecita ayuda o reportar algun comentario,solo tenes que comunicarte con #soporte</p>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="contact" class="black-bg">
+            <div class="info-container">
+                <h2>Contactame</h2>
+                <div class="contact-info-container">
+                    <div class="info-column">
+                        <h3>En la nube</h3>
+                        <p><i class="fas fa-location-dot"></i>Servidor random 123</p>
+                        <p><i class="fas fa-envelope"></i>elbarrio@hotmail.com</p>
+                        <p><i class="fas fa-phone"></i>123456789</p>
+                    </div>
+
+
+
+                    <div class="info-column">
+                        <h3>Todo El Barrio</h3>
+                        <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                        <a href="#"><i class="fa fa-globe"></i>Sitio oficial</a>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.507131429912!2d-57.554196!3d-37.9652927!2m3!1
+                         f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+                         1s0x9584d90bc1472b93%3A0xb1eb59ebfa003ab7!2sLevel%20Body%20Fit!5e0!3m2!1ses-419!2sar!4v1665767045038!5m2!1ses-419!2sar"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer class="black-bg">Hecho con ❤️ en Heladeria "El Barrio"</footer>
 </body>
+
 </html>

@@ -1,0 +1,11 @@
+
+.card i:hover , 
+.navbar-list a:hover
+{
+    color:  rgb(32, 230, 32) ;
+    border-color:  rgb(32, 230, 32) ;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+  }
+
+  
