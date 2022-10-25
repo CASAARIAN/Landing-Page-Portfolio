@@ -192,7 +192,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  margin: 50px auto;
 }
 
 .hero-info {
@@ -207,7 +207,7 @@ header {
 }
 .hero-info h1 {
   font-size: 40px;
-  width: 80%;
+  width: 50%;
   min-width: 500px;
   font-weight: 600;
   color: rgb(0, 0, 0);
@@ -309,7 +309,6 @@ header {
   background-color: black;
   border-radius: 10px;
   padding: 1px 3px;
-  
 }
 .info-cafe-container {
   display: flex;
@@ -364,14 +363,12 @@ header {
   margin-bottom: 40px;
   border-radius: 18px;
   padding: 0px 3px;
-
 }
 .categories {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
- 
 }
 .category {
   background-color: black;
@@ -390,7 +387,6 @@ header {
   gap: 15px;
   padding: 40px 0;
   max-width: 1200px;
-  
 }
 .product {
   background-color: rgb(148, 61, 3);
@@ -450,6 +446,7 @@ header {
   gap: 15px;
   padding: 40px 0;
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 #benefits h1 {
@@ -460,36 +457,30 @@ header {
   margin-bottom: 40px;
   border-radius: 18px;
   padding: 0px 3px;
-  
 }
 
 .benefits-container {
-  background-color: rgb(255, 255, 255);
-  padding: 25px;
-  border-radius: 15px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  gap: 50px;
- 
-  
+  gap: 100px;
 }
-
-
 
 .benefits-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
- 
 }
 
 .benefits-top,
 .benefits-mid,
 .benefits-bot {
-font-size: 600;
+  font-size: 600;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 25px;
+  width: 350px;
+  height: 150px;
+  
 }
-
-
-
