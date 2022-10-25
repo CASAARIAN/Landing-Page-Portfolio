@@ -57,3 +57,8 @@
   .less:hover
     {-webkit-transform: scale(1.2); transform:scale(1.2);}
 
+
+    .btn-comprar:hover {
+      -webkit-transform: scale(1.2); transform:scale(1.2);
+    }
+
