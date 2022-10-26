@@ -75,3 +75,26 @@ body {
   height: 75vh;
   margin: 0 auto;
 }
+
+.footer-links {
+  display: flex;
+  margin-top: 250px;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  margin-top: 55px;
+  justify-content: center;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.footer-list a {
+  color: white;
+  font-size: 500;
+}
