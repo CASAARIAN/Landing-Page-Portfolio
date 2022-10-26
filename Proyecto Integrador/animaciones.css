@@ -41,7 +41,8 @@
   }
 
 
-  .cart-icon:hover {-webkit-transform: scale(1.2); transform:scale(1.2);}
+  .cart-icon:hover {-webkit-transform: scale(1.2); transform:scale(1.2);
+    transition: transform 0.2s ease-in;}
 
   .hero-info a:hover{-webkit-transform: scale(1.2); transform:scale(1.2);}
 
@@ -60,11 +61,13 @@
 
     .btn-comprar:hover {
       -webkit-transform: scale(1.2); transform:scale(1.2);
+     
     }
 
 
     .btn:hover {
       -webkit-transform:scale(1.1); transform: scale(1.1);
+      
     }
 
     .contact-info button:hover {
