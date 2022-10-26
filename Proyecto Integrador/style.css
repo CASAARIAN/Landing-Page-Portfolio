@@ -104,7 +104,7 @@ header {
   font-weight: 300;
 }
 .item-price {
-  background: linear-gradient(#8b4605, #000000);
+  background: linear-gradient(#bd0d0d, #000000);
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
@@ -176,11 +176,20 @@ header {
   transform: translate(0%);
   transition: all 0.5s cubic-bezier(0.92, 0.01, 0.35, 0.99);
 }
+
 .btn-add {
   border-radius: 5px;
-  background: linear-gradient(rgb(255, 51, 0), black);
+  background: linear-gradient(rgb(241, 111, 5), rgb(85, 5, 5));
   color: white;
   cursor: pointer;
+}
+
+.btn {
+  border-radius: 5px;
+  background: linear-gradient(gray, rgb(85, 5, 5));
+  color: rgb(197, 197, 197);
+  cursor: pointer;
+  padding: 0px 5px 0px 5px;
 }
 
 /* Fin del carrito */
@@ -203,7 +212,6 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  
 }
 .hero-info h1 {
   font-size: 40px;
@@ -293,7 +301,7 @@ header {
 }
 
 #info {
-  padding: 70px 0px;
+  padding: 90px 0px;
   max-width: 1200px;
   display: flex;
   justify-content: center;
@@ -350,7 +358,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px 0px;
+  padding: 90px 0px;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -457,6 +465,7 @@ header {
   margin-bottom: 40px;
   border-radius: 18px;
   padding: 0px 3px;
+  margin-top: 80px;
 }
 
 .benefits-container {
@@ -464,6 +473,7 @@ header {
   flex-direction: row;
   justify-content: center;
   gap: 100px;
+  
 }
 
 .benefits-info {
@@ -471,16 +481,111 @@ header {
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+  
 }
 
 .benefits-top,
 .benefits-mid,
 .benefits-bot {
   font-size: 600;
-  background-color: rgb(255, 255, 255);
+  background: linear-gradient(gray, rgb(31, 99, 24));
   border-radius: 15px;
   padding: 25px;
   width: 350px;
   height: 150px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-info h1 {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  padding: 2px 3px;
   
 }
+
+.contact-info span {
+  font-size: 400;
+  text-align: center;
+  color: white;
+  background: linear-gradient(gray, rgb(0, 0, 0));
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+
+  margin-top: 15px;
+}
+.contact-info button {
+  background-color: #611a1a;
+  width: 10%;
+  margin: 0 auto;
+margin-top: 25px;
+cursor: pointer;
+border-radius: 10px;
+}
+
+iframe {
+  padding: 30px 0px;
+  height: 350px;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(49, 45, 45);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0px;
+}
+
+footer a,
+footer p {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  font-size: 14px;
+}
+footer span {
+  font-weight: 800;
+}
+
+.footer , .imagen {
+  background-color: black;
+  border-radius: 100%;
+  width: 65px;
+ 
+  
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+
+
+
+
